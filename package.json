@@ -1,5 +1,5 @@
 {
-  "name": "slog",
+  "name": "@iamjoshing/slog",
   "version": "1.0.0",
   "description": "Fast, scriptable CLI for querying Sentry issues and events",
   "type": "module",

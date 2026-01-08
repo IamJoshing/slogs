@@ -16,20 +16,21 @@ Fast, scriptable CLI for querying Sentry issues and events. Designed for develop
 
 ### Prerequisites
 
-- [Bun](https://bun.sh) runtime (recommended) or Node.js 18+
+- Node.js 18+ or [Bun](https://bun.sh) runtime
 
-### Install
+### Install from npm
 
 ```bash
-# Clone the repository
-git clone https://github.com/yourusername/slog.git
-cd slog
+npm install -g @iamjoshing/slog
+```
 
-# Install dependencies
-bun install
+### Install from source
 
-# Link globally (optional)
-bun link
+```bash
+git clone https://github.com/IamJoshing/slogs.git
+cd slogs
+npm install
+npm link
 ```
 
 ## Configuration
